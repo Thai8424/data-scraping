@@ -1,0 +1,26 @@
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+
+# Generated or collected data (may contain personal/business contact details)
+*.xlsx
+*.xls
+*.csv
+*.jsonl
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and local/editor files
+*.log
+.DS_Store
+.vscode/
